@@ -37,6 +37,7 @@
 ![Alt  .NET framework3.5](pic/bandicam%202022-10-01%2000-34-29-469.jpg)
 
 - After checking the box, you still need to **restart** your computer to use **powershell -version** in powershell to change to version 2 or 1.
+- A faster alternative to the above process is to use **windows + R** and type **optionalfeatures.exe**.
 
 # **_Not 100% compatibility solution_**
 
