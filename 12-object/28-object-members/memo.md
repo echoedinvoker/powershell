@@ -12,7 +12,7 @@
 
 ## **Practice**
 
-![Alt get-service](pic/bandicam%202022-10-08%2004-37-04-803.jpg)
+![Alt get-service](pic/bandicam%202022-10-08%2005-14-31-658.jpg)
 
 - In fact, get-service generates an **object** "service" and prints it directly in the console.
 
