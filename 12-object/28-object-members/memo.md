@@ -2,20 +2,19 @@
 
 ![Alt object concept](pic/bandicam%202022-10-08%2004-33-49-834.jpg)
 
-- In PowerShell, each service is an object.
-  - Under each object there will be members, members have three types:
-    - property
-      - attribute of object.
-    - method
-      - let object to action something.
-    - event
-      - wait something happened and trigger some action.
+- Under each object there will be members, members have three types:
+  - property
+    - attribute of object.
+  - method
+    - let object to action something.
+  - event
+    - wait something happened and trigger some action.
 
 ## **Practice**
 
 ![Alt get-service](pic/bandicam%202022-10-08%2004-37-04-803.jpg)
 
-- In fact, get-service generates an **object** and prints it directly in the console.
+- In fact, get-service generates an **object** "service" and prints it directly in the console.
 
 ![Alt pipe get-member](pic/bandicam%202022-10-08%2004-41-43-652.jpg)
 
