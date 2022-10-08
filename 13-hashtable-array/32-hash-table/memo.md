@@ -32,3 +32,9 @@
 ## **Multiple Hash Tables**
 
 ![Alt use multiple hash tables in select](pic/bandicam%202022-10-08%2022-54-48-762.jpg)
+
+- There can be **multiple hash tables** in **single** Select-Object command.
+
+  - We have changed the last column "PM" to use hash table to customize the presentation.
+
+- Although PowerShell instruction does not end with **;** , there is no problem with a **\n** for layout
