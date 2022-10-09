@@ -21,6 +21,8 @@
 
 ![Alt create profile script](pic/bandicam%202022-10-09%2021-17-00-616.jpg)
 
+- We can use build-in variable **\$profile** or **\$PSHOM** to create **profile script file**.
+
 ![Alt check folder](pic/bandicam%202022-10-09%2021-17-39-633.jpg)
 
 ![Alt check file and content](pic/bandicam%202022-10-09%2021-18-08-654.jpg)
@@ -53,7 +55,8 @@
 
 ![Alt error msg](pic/bandicam%202022-10-09%2021-30-51-223.jpg)
 
-- We found that the profile script I just set above has no effect in ISE.
+- We found that the **profile script** I just set above has no effect in ISE.
+  - This means that the **profile script file** used by ISE is **different** from the one used by PowerShell.
 
 ## **Create profile script for ISE**
 
@@ -61,9 +64,13 @@
 
 ![Alt check file and content](pic/bandicam%202022-10-09%2021-34-10-965.jpg)
 
+- Since we already know that the difference between the ISE profile script file is only the extra **"ISE"** in the file name, there is actually **no need to create this profile script file in ISE**.
+
 ![Alt open previous file](pic/bandicam%202022-10-09%2021-35-24-339.jpg)
 
 ![Alt save as...](pic/bandicam%202022-10-09%2021-35-32-651.jpg)
+
+- We can directly use the previous profile script file to create an ISE-specific profile script file.
 
 ![Alt modify file name](pic/bandicam%202022-10-09%2021-37-06-335.jpg)
 
