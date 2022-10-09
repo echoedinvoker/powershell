@@ -1,6 +1,6 @@
 # **_Concept of Execution Policy Level_**
 
-> If you download a malicious script from the Internet, it may automatically modify your files or delete them, so we need a security mechanism to avoid these malicious behaviors.
+> If you download a malicious script from the Internet, it may automatically modify your files or delete them, so we need a **security** mechanism to avoid these malicious behaviors.
 
 ![Alt concept](pic/bandicam%202022-10-10%2005-12-41-834.jpg)
 
