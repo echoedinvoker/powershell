@@ -31,11 +31,15 @@
 
 # **_RemoteSigned Level_**
 
+## **Create a script on network**
+
 ![Alt upload script to internet](pic/bandicam%202022-10-10%2005-23-43-172.jpg)
 
 ![Alt rename](pic/bandicam%202022-10-10%2005-24-17-206.jpg)
 
 ![Alt download](pic/bandicam%202022-10-10%2005-26-00-519.jpg)
+
+## **Try out RemoteSigned Level**
 
 ![Alt change policy to remote](pic/bandicam%202022-10-10%2005-26-49-856.jpg)
 
@@ -43,7 +47,11 @@
 
 ![Alt  run downloaded script](pic/bandicam%202022-10-10%2005-28-18-646.jpg)
 
+## **Unblock-File**
+
 ![Alt unblock-file](pic/bandicam%202022-10-10%2005-29-59-812.jpg)
+
+- **Unblock-File** removes the network information from the file and makes the computer think it is a **local** script, so you don't need to have a digital signature to run the downloaded script in this way.
 
 ![Alt run downloaded script again](pic/bandicam%202022-10-10%2005-31-10-508.jpg)
 
@@ -58,3 +66,6 @@
 ![Alt default execution policy setting](pic/bandicam%202022-10-10%2005-33-03-677.jpg)
 
 ![Alt change setting](pic/bandicam%202022-10-10%2005-34-22-742.jpg)
+
+- The advantage of the above way is that you don't need to set the **script execution policy** one by one computer.
+- Once you set the **script execution policy** with the **group policy editor** approach, you **cannot** use command in PowerShell to change it.
