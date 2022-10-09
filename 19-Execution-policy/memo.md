@@ -9,9 +9,11 @@
       - then you generate a **code signing certificate** which is used to digitally sign any scripts that you want to execute on any computers **on your domain**.
 - The problem with **AllSigned** is that if there is any change in the script, the **digital sign** will be **invalidated** and must be obtained again.
 - **RemoteSinged**, simply explain that only the scripts **downloaded from the network** need digital sign, local scripts do not need.
-- The difference between **Bypass** and **Unrestriced** is that when running the **download script**, Unrestriced pops up a **prompt hint** while Bypass does not.
+- The difference between **Bypass** and **Unrestriced** is that when running the **download script**, Unrestriced pops up a **prompt hint** while Bypass does not get any prompt just run.
 
 # **_Run a Local Script_**
+
+## **Create a local script**
 
 ![Alt write a script with ISE](pic/bandicam%202022-10-10%2005-14-18-593.jpg)
 
@@ -19,7 +21,11 @@
 
 ![Alt ave script to documents folder2](pic/bandicam%202022-10-10%2005-15-01-303.jpg)
 
+## **Run a local script**
+
 ![Alt run it and failed](pic/bandicam%202022-10-10%2005-18-43-816.jpg)
+
+- default execution policy level is **restricted**, so no script can be executed.
 
 ![Alt modify execution policy and run again](pic/bandicam%202022-10-10%2005-21-45-085.jpg)
 
