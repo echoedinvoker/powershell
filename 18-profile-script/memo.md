@@ -90,7 +90,7 @@
 
 ## **Open Profile script with ISE**
 
-> We can use ISE to open these script files and do more script writing.
+> We can use **ISE** to open these **script files** and do more script writing.
 
 ![Alt open script with ISE1](pic/bandicam%202022-10-09%2021-39-03-898.jpg)
 
