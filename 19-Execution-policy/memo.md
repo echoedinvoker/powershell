@@ -2,6 +2,15 @@
 
 ![Alt concept](pic/bandicam%202022-10-10%2005-12-41-834.jpg)
 
+- **Restriced** is default level.
+- About **digital sign**, you would have to have a **certificate server/certification authority(ca)/PKI server** (same thing).
+  - This is a role in the windows operating system.
+    - so on the windows server, you can install **active directory certificate services**.
+      - then you generate a **code signing certificate** which is used to digitally sign any scripts that you want to execute on any computers **on your domain**.
+- The problem with **AllSigned** is that if there is any change in the script, the **digital sign** will be **invalidated** and must be obtained again.
+- **RemoteSinged**, simply explain that only the scripts **downloaded from the network** need digital sign, local scripts do not need.
+- The difference between **Bypass** and **Unrestriced** is that when running the **download script**, Unrestriced pops up a **prompt hint** while Bypass does not.
+
 # **_Run a Local Script_**
 
 ![Alt write a script with ISE](pic/bandicam%202022-10-10%2005-14-18-593.jpg)
