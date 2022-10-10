@@ -15,7 +15,7 @@
 ![Alt assign result to a variable](pic/bandicam%202022-10-10%2008-01-32-933.jpg)
 
 - When get-service query does not get any service, it **does not return anything** to $service.
-  - **nothing is falcy value**, so if it used in condition it should become False value.
+  - **nothing is falcy value**, so if it used in condition it should become **False** value.
 
 ![Alt -Not operator](pic/bandicam%202022-10-10%2008-03-05-682.jpg)
 
